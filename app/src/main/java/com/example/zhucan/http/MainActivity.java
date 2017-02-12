@@ -1,46 +1,24 @@
 package com.example.zhucan.http;
 
-import android.net.Uri;
-import android.net.http.HttpResponseCache;
+
 import android.os.Bundle;
-import android.os.Message;
-import android.provider.MediaStore;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.webkit.HttpAuthHandler;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
-import com.google.android.gms.common.api.GoogleApiClient;
-
 import org.json.JSONObject;
-
 import java.io.IOException;
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
-
-import okhttp3.Authenticator;
 import okhttp3.Call;
 import okhttp3.Callback;
-import okhttp3.Credentials;
-import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
-import okhttp3.Route;
+
 
 public class MainActivity extends AppCompatActivity {
     private TextView name, password;
